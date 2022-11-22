@@ -31,22 +31,20 @@ export default function Profile() {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Enthusiastic Dev 😎",
+                    "Full stack Developer",
                     1000,
-                    "Full stack Developer 💻",
+                    "Entrepreneur",
                     1000,
-                    "Mern stack Dev 📱",
+                    "ETNA Paris",
                     1000,
-                    "Cross Platform Dev 🔴",
-                    1000,
-                    "React/React Native 🌐",
+                    "",
                     1000,
                   ]}
                 />
               </h1>
             </span>
             <span className="profile-role-tagline">
-              Knack of building applications with front and back end operations.
+              Full-Stack developer in intership.
             </span>
           </div>
 

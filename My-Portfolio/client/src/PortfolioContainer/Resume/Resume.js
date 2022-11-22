@@ -65,49 +65,44 @@ const Resume = (props) => {
     const projectsDetails = [
       {
         title: "Personal Portfolio Website",
-        duration: { fromDate: "2020", toDate: "2021" },
+        duration: { fromDate: "2020", toDate: "" },
         description:
           "A Personal Portfolio website to showcase all my details and projects at one place.",
-        subHeading: "Technologies Used: React JS, Bootsrap",
+        subHeading: 
+        "Technologies Used: Javascript, Epress Js, React Js, Node JS, Bootstrap.",
       },
       {
-        title: "Mobile E-shop ",
-        duration: { fromDate: "2020", toDate: "2021" },
+        title: "Ecommerce Website  ",
+        duration: { fromDate: "2020", toDate: "" },
         description:
-          "An ecommerce application designed to sell products online wth payment system integration",
+          "Online ecommerce website for showcasing and selling products online.",
         subHeading:
-          "Technologies Used:  React Native, Mongo DB, Express Js, Node Js, Redux.",
+        "Technologies Used: HTML, CCS, Javascript.",
       },
       {
-        title: "Ecommerce Website ",
-        duration: { fromDate: "2020", toDate: "2021" },
+        title: "Mini fight game ",
+        duration: { fromDate: "2022", toDate: "" },
         description:
-          "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
+          "A mini fight game where you are a random character and you have to fight a random characters. System of rounds and health points.",
         subHeading:
-          "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
+          "Technologies Used: Javascript.",
       },
     ];
   
     const resumeDetails = [
       <div className="resume-screen-container" key="education">
         <ResumeHeading
-          heading={"University of Legon Accra, Ghana"}
-          subHeading={"BACHELOR OF SCIENCE INFORMATION TECHNOLOGY"}
-          fromDate={"2014"}
-          toDate={"2018"}
+          heading={"ETNA Paris"}
+          subHeading={"Année préparatoire en tant que développeur intégrateur web"}
+          fromDate={"2022"}
+          toDate={"présent"}
         />
-  
+
         <ResumeHeading
-          heading={"National Youth Service Corps"}
-          subHeading={"Ministry Of Science And Technogy. Uyo Akwa Ibom State"}
+          heading={"Lycée Saint Exupéry, Fameck"}
+          subHeading={"Obtention d'un Baccalauréat Scientifique avec mention"}
           fromDate={"2019"}
-          toDate={"2020"}
-        />
-        <ResumeHeading
-          heading={"High School "}
-          subHeading={"Command Secondary School Mbiri"}
-          fromDate={"2007"}
-          toDate={"2012"}
+          toDate={"2021"}
         />
       </div>,
   
@@ -115,31 +110,37 @@ const Resume = (props) => {
       <div className="resume-screen-container" key="work-experience">
         <div className="experience-container">
           <ResumeHeading
-            heading={"Ehizeex Technoloy"}
-            subHeading={"FULL STACK DEVELOPER INTERN"}
+            heading={"ONET Security"}
+            subHeading={"Security Guard"}
             fromDate={"2021"}
-            toDate={"Present"}
+            toDate={"2022"}
           />
           <div className="experience-description">
             <span className="resume-description-text">
-              Currently working as MERN stack web and mobile developer and also an
-              online instructor on udemy.
+              Used to work as a security guard in festivals and events in  Luxembourg.
             </span>
           </div>
           <div className="experience-description">
             <span className="resume-description-text">
-              - Developed an ecommerce website for client with the dashboard for
-              managing the products, managing reviews, users, payment etc. .
+              - Learned to work in a team and to be responsible.
             </span>
             <br />
+          </div>
+          <br></br>
+          <ResumeHeading
+            heading={"AFI ESCA"}
+            subHeading={"Administrative Assistant"}
+            fromDate={"2020"}
+            toDate={"2021"}
+          />
+          <div className="experience-description">
             <span className="resume-description-text">
-              - Integrated the web app with backend services to create new user
-              onboarding application with dynamic form content.{" "}
+              Administrative assistant in a health insurance/hedge funds in Luxembourg.
             </span>
-            <br />
+          </div>
+          <div className="experience-description">
             <span className="resume-description-text">
-              - I stretch my mental capacity to develope UI as per the given
-              designs.
+              - Learned to be rigourous and keep a perfect organisation.
             </span>
             <br />
           </div>
@@ -182,16 +183,16 @@ const Resume = (props) => {
       /* Interests */
       <div className="resume-screen-container" key="interests">
         <ResumeHeading
-          heading="Teaching"
-          description="Apart from being a tech enthusiast and a code writer, i also love to teach people what i know simply because i believe in sharing."
+          heading="Basket-ball"
+          description="I used to play baskety-ball in a professional team in Luxembourg and I love the pressure of the game and the team spirit."
         />
         <ResumeHeading
-          heading="Music"
-          description="Listening to soothing music is something i can never compromise with, skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
+          heading="Mode"
+          description="I'm really interested in fashion and I love to create original outfits."
         />
         <ResumeHeading
-          heading="Competitive Gaming"
-          description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most."
+          heading="Photography"
+          description="Fascinated by this art, I love taking pictures of landscapes and people."
         />
       </div>,
     ];
