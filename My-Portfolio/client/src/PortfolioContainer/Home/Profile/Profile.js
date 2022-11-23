@@ -10,10 +10,10 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a href="https://github.com/imed57">
+              <a href="https://github.com/imed57" rel='noreferrer' target="_blank">
                 <i className="fa fa-github" />
               </a>
-              <a href="https://www.linkedin.com/in/imed-retibi-5595a01a1/">
+              <a href="https://www.linkedin.com/in/imed-retibi-5595a01a1/" rel='noreferrer' target="_blank">
                 <i className="fa fa-linkedin-square" />
               </a>
             </div>
@@ -32,19 +32,19 @@ export default function Profile() {
                   loop={Infinity}
                   steps={[
                     "Full stack Developer",
-                    1000,
+                    1100,
                     "Entrepreneur",
-                    1000,
+                    1100,
                     "ETNA Paris",
-                    1000,
+                    1100,
                     "",
-                    1000,
+                    1100,
                   ]}
                 />
               </h1>
             </span>
             <span className="profile-role-tagline">
-              Full-Stack developer in intership.
+              Full-Stack developer in intership
             </span>
           </div>
 

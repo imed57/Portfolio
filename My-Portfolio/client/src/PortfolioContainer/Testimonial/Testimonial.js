@@ -20,12 +20,11 @@ export default function Testimonial(props) {
     Animations.animations.fadeInScreen(props.id);
   };
 
-  const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const options = {
     loop: true,
-    margin: 0,
+    margin: 25,
     nav: true,
     animateIn: "bounceInRight",
     animateOut: "bounceOutRight",
@@ -51,6 +50,8 @@ export default function Testimonial(props) {
         title={"Portfolio"}
         subHeading={"My projects"}
       />
+      <div className='logol'><a href="https://github.com/imed57" rel='noreferrer' target="_blank"><button className="btn highlighted-btn">View my projects</button>
+      </a></div>
       <section className="testimonial-section fade-in" id={props.id || ""}>
         <div className="container">
           <div className="row">
@@ -63,7 +64,7 @@ export default function Testimonial(props) {
                   <img src={portfolio} alt="portfolio" className='photo'/>
                 </div>
                 <div className="testimonial-content">
-                  <h3>Portfolio</h3>
+                  <h3>  Portfolio</h3>
                   <p>
                     This is my portfolio website. I used React.js, Node.js, Express.js, MongoDB, and Bootstrap.
                   </p>
@@ -74,9 +75,9 @@ export default function Testimonial(props) {
                   <img src={ecommerce} alt="ecommerce" className='photo'/>
                 </div>
                 <div className="testimonial-content">
-                  <h3>Ecommerce</h3>
+                  <h3>  Ecommerce</h3>
                   <p>
-                    This is an ecommerce website. I used React.js, Node.js, Express.js, MongoDB, and Bootstrap.
+                    E-commerce website. I used Typescript, Express, Sequelize, SQL, NodeJs for the back. React/Next for the front.
                   </p>
                 </div>
               </div>
@@ -85,9 +86,9 @@ export default function Testimonial(props) {
                   <img src={cv} alt="cv" className='photo'/>
                 </div>
                 <div className="testimonial-content">
-                  <h3>CV</h3>
+                  <h3>Resume</h3>
                   <p>
-                    This is my CV website. I used React.js, Node.js, Express.js, MongoDB, and Bootstrap.
+                    This is my CV website. I used HTML, CSS and Javascript to do it. First web project, use of flexbox and transitions.
                   </p>
                 </div>
               </div>

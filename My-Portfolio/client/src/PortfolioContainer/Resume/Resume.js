@@ -55,9 +55,9 @@ const Resume = (props) => {
     const programmingSkillsDetails = [
       { skill: "JavaScript", ratingPercentage: 65 },
       { skill: "TypeScript", ratingPercentage: 75 },
-      { skill: "ReactJS/Next", ratingPercentage: 65 },
-      { skill: "Express JS", ratingPercentage: 89 },
-      { skill: "Node JS", ratingPercentage: 89 },
+      { skill: "ReactJS/Next", ratingPercentage: 70 },
+      { skill: "Express JS", ratingPercentage: 80 },
+      { skill: "Node JS", ratingPercentage: 75 },
       { skill: "HTML", ratingPercentage: 80 },
       { skill: "CSS", ratingPercentage: 80 },
     ];
@@ -69,7 +69,7 @@ const Resume = (props) => {
         description:
           "A Personal Portfolio website to showcase all my details and projects at one place.",
         subHeading: 
-        "Technologies Used: Javascript, Epress Js, React Js, Node JS, Bootstrap.",
+        "Javascript, Epress Js, React Js, Node JS, Bootstrap",
       },
       {
         title: "Ecommerce Website  ",
@@ -77,7 +77,7 @@ const Resume = (props) => {
         description:
           "Online ecommerce website for showcasing and selling products online.",
         subHeading:
-        "Technologies Used: HTML, CCS, Javascript.",
+        "Typescript, Express, Sequelize, SQL, NodeJs for the back. React/Next for the front",
       },
       {
         title: "Mini fight game ",
@@ -85,7 +85,7 @@ const Resume = (props) => {
         description:
           "A mini fight game where you are a random character and you have to fight a random characters. System of rounds and health points.",
         subHeading:
-          "Technologies Used: Javascript.",
+          "Typescript",
       },
     ];
   

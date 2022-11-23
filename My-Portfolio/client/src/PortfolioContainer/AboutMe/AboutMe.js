@@ -14,13 +14,11 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.",
+      "Hello, my name is Imed. I'm 19 years old full-stack web developer. As a self-taught, I started learning development in 2018. I'm currently studying computer science at ETNA Paris. I'm passionate about web development and I'm always looking for new challenges. I'm a fast learner and I'm always looking for new opportunities to improve my skills. That's why I'm looking for an internship as a full-stack or web developer.",
     highlights: {
       bullets: [
-        "Full Stack web and mobile development",
-        "Interactive Front End as per the design",
-        "React and React Native",
-        "Redux for State Mnanagement",
+        "Full Stack development",
+        "Interactive Front End design",
         "Building REST API",
         "Managing database",
       ],
