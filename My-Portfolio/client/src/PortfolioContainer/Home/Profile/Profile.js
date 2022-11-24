@@ -31,7 +31,7 @@ export default function Profile() {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Full stack Developer",
+                    "Full Stack Developer",
                     1100,
                     "Entrepreneur",
                     1100,
@@ -51,7 +51,7 @@ export default function Profile() {
           <div className="profile-options">
             <button className="btn primary-btn" onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
             > Hire Me </button>
-            <a href="CV alternance.pdf" download="RETIBI Imed CV.pdf">
+            <a href="Retibi imed (1).pdf" download="RETIBI Imed CV.pdf">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>

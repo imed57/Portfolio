@@ -4,6 +4,8 @@ import Resume from "../PortfolioContainer/Resume/Resume";
 import Portfolio from "../PortfolioContainer/Testimonial/Testimonial";
 import ContactMe from "../PortfolioContainer/ContactMe/ContactMe";
 
+import './commonUtils.css';
+
 export const TOTAL_SCREENS = [
     {
         screen_name: "Home",

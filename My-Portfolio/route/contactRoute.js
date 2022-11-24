@@ -33,14 +33,12 @@ router.post("/contact", (req, res) => {
             <p>${data.message}<p/>
             `,
   };
-
   smtpTransporter.sendMail(mailOptions, (error) => {
+  console.log(mailOptions);
     try {
-      if (error)
-        return res.status(400).json({ msg: "Please Fill All The Fields!" });
       res.status(200).json({ msg: "Thank You For Contacting Imed." });
     } catch (error) {
-      if (error) return res.status(500).json({ msg: "There is server error" });
+      res.status(500).json({ msg: "There is server error" });
     }
   });
 });
