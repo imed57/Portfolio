@@ -13,10 +13,11 @@ router.post("/contact", (req, res) => {
 
   let smtpTransporter = nodemailer.createTransport({
     service: "Gmail",
-    port: 465,
+    secure: false,
+    host: "smtp.gmail.com",
     auth: {
       user: "imedret@gmail.com",
-      pass: "Maryamhind57@",
+      pass: process.env.GMAIL_PSWD,
     },
   });
   let mailOptions = {

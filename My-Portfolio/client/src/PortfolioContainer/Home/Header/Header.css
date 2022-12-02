@@ -49,7 +49,7 @@
   }
   .header-parent {
     width: 100%;
-    padding: 0 40px;
+    padding: 0 20px;
     position: relative;
   }
   .header-options {
@@ -63,7 +63,7 @@
     width: 100%;
     justify-content: space-around;
     background-color: #1f2235;
-    z-index: 1000;
+    z-index: 990;
     opacity: 0.5;
   }
   .header-option-seperator {
@@ -73,7 +73,7 @@
     color: var(--white);
   }
   .header-hamburger-bars {
-    font-size: 36px;
+    font-size: 35px;
     cursor: pointer;
     margin: 0px 10px;
     color: var(--white);
